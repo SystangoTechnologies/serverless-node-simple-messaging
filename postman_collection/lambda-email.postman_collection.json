@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "6158c038-d0b3-4df4-855c-15319d9baf18",
+		"name": "lambda-email",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "lambda-email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-api-key",
+						"value": "<your x-api-key>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"toAddresses\": [\"toemail@example.com\"],\n\t\"textBody\": \"Hello\",\n\t\"body\": \"Hello\",\n\t\"subject\": \"Subject\",\n\t\"sender\": \"senderemail@example.com\"\n}"
+				},
+				"url": {
+					"raw": "<your endpoint>/dev/sendEmail",
+					"host": [
+						"<your endpoint>"
+					],
+					"path": [
+						"dev",
+						"sendEmail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

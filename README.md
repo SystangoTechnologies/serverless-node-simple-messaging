@@ -55,6 +55,10 @@ For example -
 
 - Import the postman collection and set the endpoint and x-api-key and make a hit.
 
+## License
+
+Built under [MIT](http://www.opensource.org/licenses/mit-license.php) license.
+
 ## Contributors
 
 [Sparsh Pipley](https://in.linkedin.com/in/sparsh-pipley-6ab0b1a4/)
